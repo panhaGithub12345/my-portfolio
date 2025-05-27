@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "fir-demo-project",
+    "portfolio": "fir-demo-project"
+  },
+  "targets": {},
+  "etags": {}
+}
