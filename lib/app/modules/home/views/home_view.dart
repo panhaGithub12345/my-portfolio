@@ -85,10 +85,10 @@ class HomeView extends GetView<HomeController> {
 
                       if (constraints.maxWidth >= 900) {
                         crossAxisCount = 3;
-                      } else if (constraints.maxWidth >= 600) {
+                      } else if (constraints.maxWidth <= 600) {
                         crossAxisCount = 2;
                       } else {
-                        crossAxisCount = 2;
+                        crossAxisCount = 1;
                       }
 
                       return GridView.count(
@@ -100,9 +100,8 @@ class HomeView extends GetView<HomeController> {
                         shrinkWrap: true,
                         children: controller.skills.map((skill) {
                           return Card(
-                            elevation: 2,
                             child: Padding(
-                              padding: const EdgeInsets.all(16),
+                              padding: const EdgeInsets.all(12),
                               child: Row(
                                 children: [
                                   Icon(skill['icon'] as IconData, size: 24),
@@ -276,13 +275,12 @@ class HomeView extends GetView<HomeController> {
                             child: Padding(
                               padding: const EdgeInsets.all(12),
                               child: Column(
-                                crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
                                   SizedBox(
                                     width: double.infinity,
                                     child: Image.asset(
                                       project['image'] as String,
-                                      fit: BoxFit.cover,
+                                      fit: BoxFit.contain,
                                     ),
                                   ),
                                   const SizedBox(height: 16),

@@ -71,7 +71,7 @@ class HomeController extends GetxController {
   final projects = [
     {
       'name': "Laravel",
-      'info': "Sell skincare products online with secure payments, order tracking, and admin management.",
+      'info': "Products online with secure payments.",
       'image': "assets/images/laravel.png",
       'demo': Uri.parse("https://www.youtube.com/watch?v=Ul2IQsp5J6E"),
     },
@@ -83,7 +83,7 @@ class HomeController extends GetxController {
     },
     {
       'name': "Next js",
-      'info': "Kilo Travel website that we can use to travel in Cambodia.",
+      'info': "Website that we can use to travel in Cambodia.",
       'image': "assets/images/nextJs.png",
       'demo': Uri.parse("https://kiloit.org/resources/student-hub"),
     },
