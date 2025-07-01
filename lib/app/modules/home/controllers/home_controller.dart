@@ -72,7 +72,7 @@ class HomeController extends GetxController {
     {
       'name': "Laravel",
       'info': "Sell skincare products online with secure payments, order tracking, and admin management.",
-      'image': "assets/images/laravel-blog-hero.png",
+      'image': "assets/images/laravel.png",
       'demo': Uri.parse("https://www.youtube.com/watch?v=Ul2IQsp5J6E"),
     },
     {
@@ -84,7 +84,7 @@ class HomeController extends GetxController {
     {
       'name': "Next js",
       'info': "Sell skincare products online with secure payments, order tracking, and admin management.",
-      'image': "assets/images/nextjs.jpeg",
+      'image': "assets/images/nextJs.png",
       'demo': Uri.parse("https://kiloit.org/resources/student-hub"),
     },
   ];
