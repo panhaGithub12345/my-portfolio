@@ -77,13 +77,13 @@ class HomeController extends GetxController {
     },
     {
       'name': "React Js",
-      'info': "Sell skincare products online with secure payments, order tracking, and admin management.",
+      'info': "Portfolio student at KiloIT and learn more about me.",
       'image': "assets/images/reactJs.png",
       'demo': Uri.parse("https://kilotravel.com/home"),
     },
     {
       'name': "Next js",
-      'info': "Sell skincare products online with secure payments, order tracking, and admin management.",
+      'info': "Kilo Travel website that we can use to travel in Cambodia.",
       'image': "assets/images/nextJs.png",
       'demo': Uri.parse("https://kiloit.org/resources/student-hub"),
     },
