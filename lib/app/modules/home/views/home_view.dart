@@ -502,10 +502,7 @@ Widget _buildTextCard(BuildContext context) {
       ),
       const SizedBox(height: 16),
       Text(
-        "I am a dedicated and enthusiastic student eager to start my professional journey in web development. "
-        "While I have limited formal work experience, my passion, creativity, and strong commitment to learning "
-        "make me a promising candidate for this position. I thrive on solving challenges, am highly motivated to grow, "
-        "and am excited to contribute innovative solutions in the field of web development.",
+        "I am a Year 4 university student with a strong interest in mobile app development using Flutter. Although I don’t have much work experience yet, I am eager to learn and ready to work hard. I am looking for an internship to improve my skills, gain hands-on experience, and grow as a future Flutter developer.",
         style: Theme.of(context).textTheme.bodyMedium,
       ),
       const SizedBox(height: 36),
